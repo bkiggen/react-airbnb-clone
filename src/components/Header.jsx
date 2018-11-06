@@ -1,14 +1,14 @@
 import React from "react";
 
-function Header(props){
-  const styledHeaderStyles = {
-    backgroundColor: '#ecf0f1',
-    fontFamily: 'sans-serif',
-    paddingTop: '50px'
-  }
 
+function Header(props){
+
+  const h1Styles = {
+    fontFamily: 'Montserrat',
+    fontSize: '26px'
+  }
   return (
-    <h1 style={styledHeaderStyles}>Help Queue</h1>
+    <h1 style={h1Styles}>Book unique homes and experiences</h1>
   );
 
 }
