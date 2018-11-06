@@ -5,6 +5,16 @@ import Guests from './Guests';
 import Check from './Check';
 import SubmitButton from './SubmitButton';
 
+
+const masterCheckList = [
+  {
+    finisher: ' IN'
+  },
+  {
+    finisher: ' OUT'
+  }
+];
+
 function Search() {
   const searchStyles = {
     backgroundColor: 'white',
@@ -24,8 +34,10 @@ function Search() {
       <Header/>
       <Where/>
       <div style={flex}>
-        <Check finisher=" IN"/>
-        <Check finisher=" OUT"/>
+        {masterCheckList.map((check, index) =>
+          <Check finisher={check.finisher}
+          key={index}/>
+        )}
       </div>
       <Guests/>
       <SubmitButton/>
@@ -34,3 +46,6 @@ function Search() {
 }
 
 export default Search;
+
+// <Check finisher=" IN"/>
+// <Check finisher=" OUT"/>

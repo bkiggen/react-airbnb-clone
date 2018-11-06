@@ -22,7 +22,6 @@ function Check(props){
   return (
     <div>
       <p style={titleStyles}>CHECK {props.finisher}</p>
-
       <input style={inputStyles} type="date" placeholder=""></input>
     </div>
   );

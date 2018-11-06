@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Header(props){
+function Header(){
 
   const h1Styles = {
     fontFamily: 'Montserrat',

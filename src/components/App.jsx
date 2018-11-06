@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
 import WebFont from 'webfontloader';
+import TicketList from './TicketList';
 
 WebFont.load({
   google: {
@@ -12,6 +13,7 @@ function App(){
   return (
     <div>
       <Hero/>
+      <TicketList/>
     </div>
   );
 }

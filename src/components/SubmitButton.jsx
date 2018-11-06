@@ -2,8 +2,8 @@ import React from 'react';
 
 function SubmitButton() {
   const buttonStyles = {
-    height: '50',
-    width: '104.55',
+    height: '50px',
+    width: '104.55px',
     margin: '0 auto',
     display: 'flex',
     justifyContent: 'center',
