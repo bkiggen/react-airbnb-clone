@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 
 function Check(props){
@@ -12,12 +12,12 @@ function Check(props){
     margin: '0 auto',
     borderRadius: '5px',
     border: '2px solid whitesmoke'
-  }
+  };
 
   const titleStyles = {
     fontFamily: 'Montserrat',
     fontSize: '12px'
-  }
+  };
 
   return (
     <div>

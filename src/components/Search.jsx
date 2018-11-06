@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react';
 import Header from './Header';
 import Where from './Where';
 import Guests from './Guests';
 import Check from './Check';
-import SubmitButton from './SubmitButton'
+import SubmitButton from './SubmitButton';
 
 function Search() {
   const searchStyles = {
-    backgroundColor: "white",
-    borderRadius: "5px",
-    width: "377px",
-    padding: "32px"
-  }
+    backgroundColor: 'white',
+    borderRadius: '5px',
+    width: '377px',
+    padding: '32px'
+  };
 
   const flex = {
-    display: "flex",
-    width: "380px",
-    justifyContent: "space-between"
-  }
+    display: 'flex',
+    width: '380px',
+    justifyContent: 'space-between'
+  };
 
   return (
     <div style={searchStyles}>
@@ -30,7 +30,7 @@ function Search() {
       <Guests/>
       <SubmitButton/>
     </div>
-  )
+  );
 }
 
 export default Search;

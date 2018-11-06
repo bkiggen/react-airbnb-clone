@@ -1,6 +1,6 @@
-import React from "react";
-import Nav from "./Nav";
-import SearchContainer from "./SearchContainer";
+import React from 'react';
+import Nav from './Nav';
+import SearchContainer from './SearchContainer';
 
 function Hero(){
   const heroStyles = {
@@ -9,7 +9,7 @@ function Hero(){
     backgroundPosition: 'center',
     height: '100vh',
     width: 'auto'
-  }
+  };
   return (
     <div style={heroStyles}>
       <Nav/>

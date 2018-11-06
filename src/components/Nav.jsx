@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Nav() {
   const navStyles = {
@@ -6,30 +6,30 @@ function Nav() {
     width: '2.1em',
     display: 'block',
     fill: 'white'
-  }
+  };
 
   const flex = {
-    display: "flex",
-    justifyContent: "space-between"
-  }
+    display: 'flex',
+    justifyContent: 'space-between'
+  };
 
   const navListStyles = {
-    listStyle: "none",
+    listStyle: 'none',
     fontFamily: 'Montserrat',
-    color: "white"
-  }
+    color: 'white'
+  };
 
   const liStyles = {
-    paddingRight: "30px",
-    paddingTop: "20px",
-    fontSize: "14px",
+    paddingRight: '30px',
+    paddingTop: '20px',
+    fontSize: '14px',
     fontFamily: 'Montserrat'
-  }
+  };
 
   const topPadding = {
-    paddingTop: "23px",
-    paddingLeft: "23px"
-  }
+    paddingTop: '23px',
+    paddingLeft: '23px'
+  };
 
 
   return (
@@ -46,7 +46,7 @@ function Nav() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
 export default Nav;
